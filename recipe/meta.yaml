@@ -1,5 +1,5 @@
 {% set name = "isosurfaces" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/isosurfaces-{{ version }}.tar.gz
-  sha256: 18aab4ec7148a8376097b49006ea0e9ec07e468fa5fc6133d7d9eef977fe384d
+  sha256: fa51ebe864ea9355b26830e27fdd6a41d5a58b419fa8d4b47e3b8b80718d6e21
+
 
 build:
   noarch: python
